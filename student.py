@@ -6,13 +6,11 @@ def student_details(id, name, age, course):
         f"course: {course}\n"
     )
 
-    return result
-
 
 if __name__ == "__main__":
     student_id = 183
     name = "Prajwal"
     age = 19
-    course = "CS"   
+    course = "CS"
 
     print(student_details(student_id, name, age, course))

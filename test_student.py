@@ -8,5 +8,4 @@ def test_student_details():
         "course: CS\n"
     )
 
-    assert student_details(183, "Prajwal", 19 , "CS") == expected_output
-    
+    assert student_details(183, "Prajwal", 19, "CS") == expected_output
