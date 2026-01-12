@@ -1,10 +1,11 @@
-def student_details(student_id, name, age, course):
-    result = (
-        f"Student ID: {student_id}\n"
-        f"Student Name: {name}\n"
-        f"Student Age: {age}\n"
-        f"Student Course: {course}\n"
+def student_details(id, name, age, course):
+    return (
+        f"id: {id}\n"
+        f"name: {name}\n"
+        f"age: {age}\n"
+        f"course: {course}\n"
     )
+
     return result
 
 
